@@ -4,7 +4,8 @@
   "description": "portfolio website",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "keywords": [
     "portfolio"
