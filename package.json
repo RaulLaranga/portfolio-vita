@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Raul",
+  "homepage": "https://RaulLaranga.github.io/portfolio",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.3"
+  }
+}
