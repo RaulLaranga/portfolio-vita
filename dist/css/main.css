@@ -106,6 +106,12 @@ body {
       z-index: -1;
       background: rgba(68, 68, 68, 0.8); }
 
+html,
+body,
+#background {
+  min-height: 100vh;
+  min-width: 100vw; }
+
 h1,
 h2,
 h3 {

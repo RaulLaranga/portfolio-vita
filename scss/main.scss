@@ -15,6 +15,13 @@ body {
     line-height: 1.0;
 }
 
+html,
+body,
+#background {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
 //Headings
 h1,
 h2,
