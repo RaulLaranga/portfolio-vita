@@ -135,9 +135,12 @@ main {
 }
 
 .gecko-img {
-    text-align: right;
-    position: relative;
-    padding-right: 5%;
+    position: absolute;
+    bottom: 5%;
+    left: 80%;
+    width: auto;
+    display: inline;
+    vertical-align: middle;
 }
 
 @import 'mobile';

@@ -199,9 +199,12 @@ main {
     width: 10px; }
 
 .gecko-img {
-  text-align: right;
-  position: relative;
-  padding-right: 5%; }
+  position: absolute;
+  bottom: 5%;
+  left: 80%;
+  width: auto;
+  display: inline;
+  vertical-align: middle; }
 
 @media screen and (max-width: 768px) {
   main {
