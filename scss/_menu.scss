@@ -24,12 +24,18 @@
             //Line1-Rotate
             &:nth-child(1) {
                 background: $secondary-color;
+                transform: rotate(45deg) translate(5px, 5px)
             }
 
             //Line2-Static
+            &:nth-child(2) {
+                opacity: 0;
+            }
+
             //Line3-Rotate
             &:nth-child(3) {
                 background: $secondary-color;
+                transform: rotate(-45deg) translate(7px, -6px)
             }
         }
     }
