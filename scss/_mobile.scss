@@ -71,7 +71,7 @@
 
     .icons {
         padding-top: 50%;
-        margin-top: 5%;
+
     }
 
     &-nav {
@@ -105,7 +105,7 @@
 
 @include mediaLg {
     .icons {
-        padding-top: 50%;
+        padding-top: 5%;
         margin-top: 1rem;
     }
 }

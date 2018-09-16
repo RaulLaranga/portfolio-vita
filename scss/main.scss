@@ -10,6 +10,7 @@ body {
     background-color: $primary-color;
     color: set-text-color($primary-color); //Dark - Light
     height: 100%;
+    min-height: 100%;
     margin: 0;
     font-family: 'Fjalla One', sans-serif;
     line-height: 1.0;
@@ -139,10 +140,13 @@ main {
 }
 
 .gecko-img1 {
-    position: relative;
-    left: 80%;
-    display: inline;
-    vertical-align: middle;
+    //sredi position bottom
+    padding-left: 70%;
+
+    svg#gecko1 path {
+        left: 80%;
+        padding-left: 50%;
+    }
 }
 
 @import 'mobile';
