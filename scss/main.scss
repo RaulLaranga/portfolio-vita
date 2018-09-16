@@ -35,8 +35,8 @@ h3 {
 
     &.sm-heading {
         margin-bottom: 2rem;
-        padding: 0.1rem 0.0rem;
-        background: rgba(lighten($primary-color, 3), 0.6)
+        padding: 0.3rem 0.0rem;
+        background: rgba(lighten($primary-color, 3), 0.4);
     }
 }
 
@@ -134,7 +134,7 @@ main {
     }
 }
 
-.gecko-img {
+.gecko-img1 {
     position: absolute;
     bottom: 5%;
     left: 80%;

@@ -45,11 +45,11 @@
 
     .about-info {
         grid-template-areas:
-            'bioimage'
-            'bio'
-            'job1'
-            'job2'
-            'job3';
+            "bioimage"
+            "bio"
+            "job1"
+            "job2"
+            "job3";
         grid-template-columns: 2fr;
     }
 }
@@ -59,6 +59,36 @@
     #home h1 {
         margin-top: 10vh;
         padding: 0%;
-        font-size: 4.1rem;
+        font-size: 3.1rem;
+    }
+
+    &-nav {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        float: left;
+        width: 50%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    &-side {
+        width: 50%;
+        transform: translate3d(0, 100%, 0);
+        @include easeOut;
+
+        &.show {
+            //Slide left buttom
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .gecko-img {
+        display: none;
+        width: 4px;
+        height: 4px;
     }
 }
+
+@include mediaLg {}

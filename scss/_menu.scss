@@ -60,7 +60,7 @@
         align-items: center;
         justify-content: center;
         float: left;
-        width: 38%;
+        width: 50%;
         height: 100vh;
         overflow: hidden;
     }
@@ -80,7 +80,7 @@
     }
 
     &-side {
-        width: 62%;
+        width: 50%;
         transform: translate3d(0, 100%, 0);
         @include easeOut;
 
