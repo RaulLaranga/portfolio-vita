@@ -64,6 +64,11 @@
         font-size: 3.1rem;
     }
 
+    .icons {
+        padding-top: 50%;
+        margin-top: 10rem;
+    }
+
     &-nav {
         display: flex;
         flex-flow: column wrap;
@@ -93,4 +98,9 @@
     }
 }
 
-@include mediaLg {}
+@include mediaLg {
+    .icons {
+        padding-top: 50%;
+        margin-top: 10rem;
+    }
+}
