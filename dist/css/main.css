@@ -117,7 +117,11 @@ html,
 body,
 #background {
   min-height: 100vh;
-  min-width: 100vw; }
+  min-width: 100vw;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 h1,
 h2,
@@ -202,7 +206,7 @@ main {
     width: 10px; }
 
 .gecko-img1 {
-  position: absolute;
+  position: relative;
   left: 80%;
   display: inline;
   vertical-align: middle; }
@@ -213,10 +217,10 @@ main {
     text-align: center; }
     main .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; }
+      margin-bottom: 5%; }
   .icons {
     padding-top: 50%;
-    margin-top: 1rem; }
+    margin-top: 0rem; }
   ul.menu-nav,
   div.menu-side {
     float: none;
@@ -248,7 +252,7 @@ main {
     font-size: 3.1rem; }
   .icons {
     padding-top: 50%;
-    margin-top: 10rem; }
+    margin-top: 5%; }
   -nav {
     display: flex;
     flex-flow: column wrap;

@@ -20,6 +20,10 @@ body,
 #background {
     min-height: 100vh;
     min-width: 100vw;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 //Headings
@@ -135,7 +139,7 @@ main {
 }
 
 .gecko-img1 {
-    position: absolute;
+    position: relative;
     left: 80%;
     display: inline;
     vertical-align: middle;
