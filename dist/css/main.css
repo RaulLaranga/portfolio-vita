@@ -216,7 +216,7 @@ main {
       margin-bottom: 1rem; }
   .icons {
     padding-top: 50%;
-    margin-top: 10rem; }
+    margin-top: 1rem; }
   ul.menu-nav,
   div.menu-side {
     float: none;
@@ -256,7 +256,7 @@ main {
     justify-content: center;
     float: left;
     width: 50%;
-    height: 100vh;
+    height: 100%;
     overflow: hidden; }
   -side {
     width: 50%;
@@ -272,4 +272,4 @@ main {
 @media screen and (min-width: 769px) and (max-width: 1170x) {
   .icons {
     padding-top: 50%;
-    margin-top: 10rem; } }
+    margin-top: 1rem; } }

@@ -18,7 +18,7 @@
 
     .icons {
         padding-top: 50%;
-        margin-top: 10rem;
+        margin-top: 1rem;
     }
 
     ul.menu-nav,
@@ -81,7 +81,7 @@
         justify-content: center;
         float: left;
         width: 50%;
-        height: 100vh;
+        height: 100%;
         overflow: hidden;
     }
 
@@ -106,6 +106,6 @@
 @include mediaLg {
     .icons {
         padding-top: 50%;
-        margin-top: 10rem;
+        margin-top: 1rem;
     }
 }
