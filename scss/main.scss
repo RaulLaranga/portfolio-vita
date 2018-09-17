@@ -9,9 +9,9 @@ body {
     @include background;
     background-color: $primary-color;
     color: set-text-color($primary-color); //Dark - Light
-    height: 100hv;
+    height: 100%;
     height: auto;
-    min-height: 100hv;
+    min-height: 100%;
     margin: 0;
     font-family: 'Fjalla One', sans-serif;
 
@@ -20,8 +20,9 @@ body {
 html,
 body,
 #background {
-    min-height: 100vh;
-    min-width: 100vw;
+    min-height: 100%;
+    min-width: 100%;
+    max-height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
