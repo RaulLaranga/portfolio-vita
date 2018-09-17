@@ -1,7 +1,7 @@
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 5%;
+  right: 7%;
   top: 5%npm;
   cursor: pointer;
   transition: all 0.6s ease-out; }
@@ -92,20 +92,18 @@
 * {
   box-sizing: border-box; }
 
-html,
 body {
   background-color: #444;
   color: #fff;
   height: 100hv;
+  height: auto;
   min-height: 100hv;
   font-family: 'Fjalla One', sans-serif;
   overflow: hidden; }
-  html#bg-img,
   body#bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
-    html#bg-img:after,
     body#bg-img:after {
       content: "";
       position: absolute;
