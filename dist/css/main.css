@@ -92,17 +92,20 @@
 * {
   box-sizing: border-box; }
 
+html,
 body {
   background-color: #444;
   color: #fff;
   height: 100hv;
   min-height: 100hv;
-  margin: 0;
-  font-family: 'Fjalla One', sans-serif; }
+  font-family: 'Fjalla One', sans-serif;
+  overflow: hidden; }
+  html#bg-img,
   body#bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
+    html#bg-img:after,
     body#bg-img:after {
       content: "";
       position: absolute;
