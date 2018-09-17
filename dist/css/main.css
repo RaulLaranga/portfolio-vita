@@ -156,7 +156,7 @@ main {
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 0.5rem; }
+      padding: 0.6rem; }
       main .icons a:hover {
         color: #2fed25;
         transition: all 0.6s ease-out; }
@@ -217,11 +217,11 @@ main {
   width: 100%;
   height: 80px;
   padding-left: 85%;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
   right: 0;
   bottom: 0; }
   .gecko-img1 svg {
-    width: 100px;
+    width: 120px;
     height: 120px;
     fill: #2fed25; }
 
@@ -234,14 +234,14 @@ main {
     position: reletive;
     bottom: 0;
     width: 100%;
-    height: 130px;
+    height: 150px;
     padding-left: 82%;
     padding-bottom: 1px;
     right: 0;
     bottom: 0; }
     .gecko-img1 svg {
-      width: 130px;
-      height: 130px;
+      width: 150px;
+      height: 150px;
       fill: #2fed25; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170x) {
@@ -249,13 +249,15 @@ main {
     position: relative;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 120px;
     padding-left: 80%;
-    padding-bottom: 2%; }
+    padding-bottom: 2%;
+    margin-top: 280px; }
     .gecko-img1 svg {
-      width: 100px;
-      height: 100px;
-      fill: #2fed25; }
+      width: 120px;
+      height: 120px;
+      fill: #2fed25;
+      margin-top: 100px; }
   .icons {
     padding-top: 5%;
     margin-top: 1rem; } }
@@ -317,8 +319,9 @@ main {
     bottom: 0;
     width: 100%;
     height: 60px;
+    margin-top: 20%;
     padding-left: 82%;
-    padding-bottom: 6%;
+    padding-bottom: 1%;
     right: 0;
     bottom: 0; }
     .gecko-img1 svg {
