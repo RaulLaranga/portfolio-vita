@@ -137,7 +137,7 @@ h3 {
   h2.sm-heading,
   h3.sm-heading {
     margin-bottom: 3rem;
-    padding: 0.4rem 0.0rem;
+    padding: 0.3rem 0.0rem;
     background: rgba(76, 76, 76, 0.4); }
 
 a {
@@ -169,7 +169,7 @@ main {
 
 .about-info {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 26px;
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
 
@@ -196,9 +196,16 @@ main {
   padding: 0.5rem;
   border-bottom: #2fed25 5px solid; }
 
+.footer,
+.push {
+  height: 1px; }
+
+.footer {
+  line-height: 50px; }
+
 .main-footer {
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.1rem;
   background: #3a3a3a;
   color: #2fed25;
   height: 40px; }
@@ -207,10 +214,53 @@ main {
     width: 10px; }
 
 .gecko-img1 {
-  padding-left: 70%; }
-  .gecko-img1 svg#gecko1 path {
-    left: 80%;
-    padding-left: 50%; }
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding-left: 85%;
+  padding-bottom: 12%;
+  right: 0;
+  bottom: 0; }
+  .gecko-img1 svg {
+    width: 120px;
+    height: 120px;
+    fill: #2fed25; }
+
+@media screen and (min-width: 1171px) {
+  #home .icons {
+    font-size: 30px; }
+  #home h1 {
+    font-size: 4.3rem; }
+  .gecko-img1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding-left: 82%;
+    padding-bottom: 24%;
+    right: 0;
+    bottom: 0; }
+    .gecko-img1 svg {
+      width: 120px;
+      height: 120px;
+      fill: #2fed25; } }
+
+@media screen and (min-width: 769px) and (max-width: 1170x) {
+  .gecko-img1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding-left: 80%;
+    padding-bottom: 22%; }
+    .gecko-img1 svg {
+      width: 100px;
+      height: 100px;
+      fill: #2fed25; }
+  .icons {
+    padding-top: 5%;
+    margin-top: 1rem; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -244,7 +294,39 @@ main {
       background: url(); }
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
-    grid-template-columns: 2fr; } }
+    grid-template-columns: 2fr; }
+  .gecko-img1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding-left: 80%;
+    padding-bottom: 22%;
+    right: 0;
+    bottom: 0; }
+    .gecko-img1 svg {
+      width: 80px;
+      height: 80px;
+      fill: #2fed25; } }
+
+@media screen and (width: 1024px) {
+  #home .icons {
+    font-size: 30px; }
+  #home h1 {
+    font-size: 4.3rem; }
+  .gecko-img1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding-left: 82%;
+    padding-bottom: 20%;
+    right: 0;
+    bottom: 0; }
+    .gecko-img1 svg {
+      width: 120px;
+      height: 120px;
+      fill: #2fed25; } }
 
 @media screen and (max-width: 500px) {
   #home h1 {
@@ -252,7 +334,7 @@ main {
     padding: 0%;
     font-size: 3.1rem; }
   .icons {
-    padding-top: 50%; }
+    padding-top: 70%; }
   -nav {
     display: flex;
     flex-flow: column wrap;
@@ -268,12 +350,16 @@ main {
     transition: all 0.6s ease-out; }
     -side.show {
       transform: translate3d(0, 0, 0); }
-  .gecko-img {
-    display: none;
-    width: 4px;
-    height: 4px; } }
-
-@media screen and (min-width: 769px) and (max-width: 1170x) {
-  .icons {
-    padding-top: 5%;
-    margin-top: 1rem; } }
+  .gecko-img1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding-left: 70%;
+    padding-bottom: 22%;
+    right: 0;
+    bottom: 0; }
+    .gecko-img1 svg {
+      width: 50px;
+      height: 50px;
+      fill: #2fed25; } }
