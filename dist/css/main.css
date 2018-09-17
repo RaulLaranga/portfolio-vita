@@ -95,11 +95,10 @@
 body {
   background-color: #444;
   color: #fff;
-  height: 100%;
-  min-height: 100%;
+  height: 100hv;
+  min-height: 100hv;
   margin: 0;
-  font-family: 'Fjalla One', sans-serif;
-  line-height: 1.0; }
+  font-family: 'Fjalla One', sans-serif; }
   body#bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
@@ -119,7 +118,6 @@ body,
 #background {
   min-height: 100vh;
   min-width: 100vw;
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -214,46 +212,46 @@ main {
     width: 10px; }
 
 .gecko-img1 {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 80px;
   padding-left: 85%;
-  padding-bottom: 12%;
+  padding-bottom: 2%;
   right: 0;
   bottom: 0; }
   .gecko-img1 svg {
-    width: 120px;
+    width: 100px;
     height: 120px;
     fill: #2fed25; }
 
 @media screen and (min-width: 1171px) {
   #home .icons {
-    font-size: 30px; }
+    font-size: 1.5rem; }
   #home h1 {
-    font-size: 4.3rem; }
+    font-size: 4.0rem; }
   .gecko-img1 {
-    position: absolute;
+    position: reletive;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 130px;
     padding-left: 82%;
-    padding-bottom: 24%;
+    padding-bottom: 1px;
     right: 0;
     bottom: 0; }
     .gecko-img1 svg {
-      width: 120px;
-      height: 120px;
+      width: 130px;
+      height: 130px;
       fill: #2fed25; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170x) {
   .gecko-img1 {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 60px;
     padding-left: 80%;
-    padding-bottom: 22%; }
+    padding-bottom: 2%; }
     .gecko-img1 svg {
       width: 100px;
       height: 100px;
@@ -270,7 +268,7 @@ main {
       line-height: 1;
       margin-bottom: 5%; }
   .icons {
-    padding-top: 50%;
+    padding-top: 1%;
     margin-top: 0rem; }
   ul.menu-nav,
   div.menu-side {
@@ -296,36 +294,36 @@ main {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 2fr; }
   .gecko-img1 {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 60px;
     padding-left: 80%;
-    padding-bottom: 22%;
+    padding-bottom: 1%;
     right: 0;
     bottom: 0; }
     .gecko-img1 svg {
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
       fill: #2fed25; } }
 
 @media screen and (width: 1024px) {
   #home .icons {
-    font-size: 30px; }
+    font-size: 1rem; }
   #home h1 {
-    font-size: 4.3rem; }
+    font-size: 4.1rem; }
   .gecko-img1 {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 60px;
     padding-left: 82%;
-    padding-bottom: 20%;
+    padding-bottom: 6%;
     right: 0;
     bottom: 0; }
     .gecko-img1 svg {
-      width: 120px;
-      height: 120px;
+      width: 100px;
+      height: 100px;
       fill: #2fed25; } }
 
 @media screen and (max-width: 500px) {
@@ -334,7 +332,7 @@ main {
     padding: 0%;
     font-size: 3.1rem; }
   .icons {
-    padding-top: 70%; }
+    padding-top: 7%; }
   -nav {
     display: flex;
     flex-flow: column wrap;
@@ -351,15 +349,15 @@ main {
     -side.show {
       transform: translate3d(0, 0, 0); }
   .gecko-img1 {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 60px;
     padding-left: 70%;
-    padding-bottom: 22%;
+    padding-bottom: 2%;
     right: 0;
     bottom: 0; }
     .gecko-img1 svg {
-      width: 50px;
-      height: 50px;
+      width: 55px;
+      height: 55px;
       fill: #2fed25; } }

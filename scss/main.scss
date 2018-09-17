@@ -9,11 +9,11 @@ body {
     @include background;
     background-color: $primary-color;
     color: set-text-color($primary-color); //Dark - Light
-    height: 100%;
-    min-height: 100%;
+    height: 100hv;
+    min-height: 100hv;
     margin: 0;
     font-family: 'Fjalla One', sans-serif;
-    line-height: 1.0;
+
 }
 
 html,
@@ -21,7 +21,6 @@ body,
 #background {
     min-height: 100vh;
     min-width: 100vw;
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -157,17 +156,17 @@ main {
 }
 
 .gecko-img1 {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 80px;
     padding-left: 85%;
-    padding-bottom: 12%;
+    padding-bottom: 2%;
     right: 0;
     bottom: 0;
 
     svg {
-        width: 120px;
+        width: 100px;
         height: 120px;
         fill: $secondary-color;
 

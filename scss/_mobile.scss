@@ -2,27 +2,27 @@
 @include mediaXl {
     #home {
         .icons {
-            font-size: 30px;
+            font-size: 1.5rem;
         }
 
         h1 {
-            font-size: 4.3rem;
+            font-size: 4.0rem;
         }
     }
 
     .gecko-img1 {
-        position: absolute;
+        position: reletive;
         bottom: 0;
         width: 100%;
-        height: 60px;
+        height: 130px;
         padding-left: 82%;
-        padding-bottom: 24%;
+        padding-bottom: 1px;
         right: 0;
         bottom: 0;
 
         svg {
-            width: 120px;
-            height: 120px;
+            width: 130px;
+            height: 130px;
             fill: $secondary-color;
 
 
@@ -33,12 +33,12 @@
 //Desktops Screens
 @include mediaLg {
     .gecko-img1 {
-        position: absolute;
+        position: relative;
         bottom: 0;
         width: 100%;
         height: 60px;
         padding-left: 80%;
-        padding-bottom: 22%;
+        padding-bottom: 2%;
 
 
         svg {
@@ -69,7 +69,7 @@
     }
 
     .icons {
-        padding-top: 50%;
+        padding-top: 1%;
         margin-top: 0rem;
     }
 
@@ -113,18 +113,18 @@
     }
 
     .gecko-img1 {
-        position: absolute;
+        position: relative;
         bottom: 0;
         width: 100%;
         height: 60px;
         padding-left: 80%;
-        padding-bottom: 22%;
+        padding-bottom: 1%;
         right: 0;
         bottom: 0;
 
         svg {
-            width: 80px;
-            height: 80px;
+            width: 100px;
+            height: 100px;
             fill: $secondary-color;
 
 
@@ -137,27 +137,27 @@
 @include mediaIpad {
     #home {
         .icons {
-            font-size: 30px;
+            font-size: 1rem;
         }
 
         h1 {
-            font-size: 4.3rem;
+            font-size: 4.1rem;
         }
     }
 
     .gecko-img1 {
-        position: absolute;
+        position: relative;
         bottom: 0;
         width: 100%;
         height: 60px;
         padding-left: 82%;
-        padding-bottom: 20%;
+        padding-bottom: 6%;
         right: 0;
         bottom: 0;
 
         svg {
-            width: 120px;
-            height: 120px;
+            width: 100px;
+            height: 100px;
             fill: $secondary-color;
 
 
@@ -175,7 +175,7 @@
     }
 
     .icons {
-        padding-top: 70%;
+        padding-top: 7%;
 
     }
 
@@ -202,18 +202,18 @@
     }
 
     .gecko-img1 {
-        position: absolute;
+        position: relative;
         bottom: 0;
         width: 100%;
         height: 60px;
         padding-left: 70%;
-        padding-bottom: 22%;
+        padding-bottom: 2%;
         right: 0;
         bottom: 0;
 
         svg {
-            width: 50px;
-            height: 50px;
+            width: 55px;
+            height: 55px;
             fill: $secondary-color;
 
 
