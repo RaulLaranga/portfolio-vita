@@ -7,7 +7,7 @@
 
 body {
     @include background;
-    background-color: $primary-color;
+    background-color: #444;
     color: set-text-color($primary-color); //Dark - Light
     height: 100hv;
     min-height: 100hv;
@@ -95,6 +95,10 @@ main {
         'bioimage bio bio'
         'job1 job2 job3';
     grid-template-columns: repeat(3, 1fr);
+}
+
+.text-secondary {
+    color: $secondary-color;
 }
 
 .bio-image {
