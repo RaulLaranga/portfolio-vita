@@ -7,13 +7,14 @@
 
 body {
     @include background;
-    background-color: #444;
-    color: set-text-color(#444); //Dark - Light
+    background-color: $primary-color;
+    color: set-text-color($primary-color); //Dark - Light
     height: 100hv;
     height: auto;
     min-height: 100hv;
+    margin: 0;
     font-family: 'Fjalla One', sans-serif;
-    overflow: hidden;
+
 }
 
 html,
@@ -98,7 +99,7 @@ main {
 }
 
 .text-secondary {
-    color: $secondary-color;
+    color: $primary-color;
 }
 
 .bio-image {

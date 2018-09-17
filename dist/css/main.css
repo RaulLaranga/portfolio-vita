@@ -98,8 +98,8 @@ body {
   height: 100hv;
   height: auto;
   min-height: 100hv;
-  font-family: 'Fjalla One', sans-serif;
-  overflow: hidden; }
+  margin: 0;
+  font-family: 'Fjalla One', sans-serif; }
   body#bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
@@ -173,7 +173,7 @@ main {
   grid-template-columns: repeat(3, 1fr); }
 
 .text-secondary {
-  color: #2fed25; }
+  color: #444; }
 
 .bio-image {
   grid-area: bioimage;
