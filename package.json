@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RaulLaranga/portfolio.git"
+    "url": "git+https://github.com/RaulLaranga/portfolio-vita.git"
   },
   "keywords": [
     "website"
@@ -21,7 +21,7 @@
   "author": "Raul",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RaulLaranga/portfolio/issues"
+    "url": "https://github.com/RaulLaranga/portfolio-vita/issues"
   },
-  "homepage": "https://github.com/RaulLaranga/portfolio#readme"
+  "homepage": "https://github.com/RaulLaranga/portfolio-vita#readme"
 }
