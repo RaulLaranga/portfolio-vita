@@ -1,7 +1,7 @@
 {
   "name": "vita-portfolio",
   "version": "1.0.0",
-  "description": "Vitorvic Illustrations web site",
+  "description": "",
   "main": "index.js",
   "dependencies": {
     "gh-pages": "^2.0.0",
@@ -9,19 +9,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RaulLaranga/portfolio-vita.git"
-  },
-  "keywords": [
-    "website"
-  ],
-  "author": "Raul",
+
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RaulLaranga/portfolio-vita/issues"
-  },
   "homepage": "https://github.com/RaulLaranga/portfolio-vita#readme"
 }
