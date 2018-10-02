@@ -1,20 +1,27 @@
 {
-  "name": "portfolio",
+  "name": "vita-portfolio",
   "version": "1.0.0",
-  "description": "portfolio website",
+  "description": "Vitorvic Illustrations web site",
   "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.0.0",
+    "node-sass": "^4.9.3"
+  },
+  "devDependencies": {},
   "scripts": {
-    "deploy": "gh-pages -d dist",
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaulLaranga/portfolio.git"
   },
   "keywords": [
-    "portfolio"
+    "website"
   ],
   "author": "Raul",
-  "homepage": "https://RaulLaranga.github.io/portfolio",
-  "license": "MIT",
-  "dependencies": {
-    "gh-pages": "^1.2.0",
-    "node-sass": "^4.9.3"
-  }
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaulLaranga/portfolio/issues"
+  },
+  "homepage": "https://github.com/RaulLaranga/portfolio#readme"
 }

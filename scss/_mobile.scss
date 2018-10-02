@@ -10,49 +10,12 @@
         }
     }
 
-    .gecko-img1 {
-        position: reletive;
-        bottom: 0;
-        width: 100%;
-        height: 150px;
-        padding-left: 82%;
-        padding-bottom: 1px;
-        right: 0;
-        bottom: 0;
 
-        svg {
-            width: 150px;
-            height: 150px;
-            fill: $secondary-color;
-
-
-        }
-    }
 }
 
 //Desktops Screens
 @include mediaLg {
-    .gecko-img1 {
-        position: relative;
-        bottom: 0;
-        width: 100%;
-        height: 120px;
-        padding-left: 80%;
-        padding-bottom: 2%;
-        margin-top: 280px;
 
-
-
-
-        svg {
-            width: 120px;
-            height: 120px;
-            fill: $secondary-color;
-            margin-top: 100px;
-
-
-        }
-    }
 
     .icons {
         padding-top: 5%;
@@ -76,6 +39,8 @@
         padding-top: 1%;
         margin-top: 0rem;
     }
+
+
 
     ul.menu-nav,
     div.menu-side {
@@ -106,34 +71,22 @@
         }
     }
 
+
+
     .about-info {
         grid-template-areas:
-            "bioimage"
-            "bio"
+            "bioimage1"
+            "bio1"
+            "gapabout"
+            "bioimage2"
+            "bio2"
             "job1"
             "job2"
             "job3";
-        grid-template-columns: 2fr;
+        grid-template-columns: 1fr;
     }
 
-    .gecko-img1 {
-        position: relative;
-        bottom: 0;
-        width: 100%;
-        height: 60px;
-        padding-left: 80%;
-        padding-bottom: 1%;
-        right: 0;
-        bottom: 0;
 
-        svg {
-            width: 100px;
-            height: 100px;
-            fill: $secondary-color;
-
-
-        }
-    }
 
 }
 
@@ -149,25 +102,7 @@
         }
     }
 
-    .gecko-img1 {
-        position: relative;
-        bottom: 0;
-        width: 100%;
-        height: 60px;
-        margin-top: 20%;
-        padding-left: 82%;
-        padding-bottom: 11%;
-        right: 0;
-        bottom: 0;
 
-        svg {
-            width: 100px;
-            height: 100px;
-            fill: $secondary-color;
-
-
-        }
-    }
 
 }
 
@@ -206,23 +141,18 @@
         }
     }
 
-    .gecko-img1 {
-        position: relative;
-        bottom: 0;
-        width: 100%;
-        height: 60px;
-        padding-left: 85%;
-        padding-bottom: 1%;
-        right: 0;
-        bottom: 0;
+    .main-centar {
+        color: yellow;
+        width: auto;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas:
+            'main1'
+            'main2'
+            'main3';
 
-        svg {
-            width: 55px;
-            height: 55px;
-            fill: $secondary-color;
+        grid-template-columns: 1fr;
 
-
-        }
     }
 
 

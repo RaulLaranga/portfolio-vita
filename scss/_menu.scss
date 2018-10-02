@@ -2,13 +2,13 @@
 .menu-btn {
     position: absolute;
     z-index: 3;
-    right: 7%;
+    right: 5%;
     top: 5%npm;
     cursor: pointer;
     @include easeOut;
 
     .btn-line {
-        width: 28px;
+        width: 30px;
         height: 3px;
         margin: 0 0 5px 0;
         background: set-text-color($primary-color);
@@ -64,6 +64,7 @@
         width: 50%;
         height: 100vh;
         overflow: hidden;
+
     }
 
     &-nav {
