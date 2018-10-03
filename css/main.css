@@ -287,9 +287,6 @@ header {
   text-align: center;
   padding: 5px; }
 
-.main {
-  border: 1px solid black; }
-
 .main1 {
   grid-area: main1; }
   .main1 img {
