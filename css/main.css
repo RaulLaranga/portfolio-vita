@@ -292,12 +292,21 @@ header {
 
 .main1 {
   grid-area: main1; }
+  .main1 img {
+    width: 250px;
+    height: 300px; }
 
 .main2 {
   grid-area: main2; }
+  .main2 img {
+    width: 250px;
+    height: 300px; }
 
 .main3 {
   grid-area: main3; }
+  .main3 img {
+    width: 250px;
+    height: 300px; }
 
 .about-info {
   display: grid;
