@@ -240,7 +240,7 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-family: "CherrySwash-Regular", sans-serif;
     font-weight: 100;
     text-align: center;
@@ -290,8 +290,8 @@ header {
 .main1 {
   grid-area: main1; }
   .main1 img {
-    width: 250px;
-    height: 300px; }
+    width: 160px;
+    height: 200px; }
 
 .main2 {
   grid-area: main2; }
@@ -302,8 +302,11 @@ header {
 .main3 {
   grid-area: main3; }
   .main3 img {
-    width: 250px;
-    height: 300px; }
+    width: 160px;
+    height: 200px; }
+
+#about .lg-heading {
+  padding-bottom: 5%; }
 
 .about-info {
   display: grid;
@@ -318,28 +321,33 @@ header {
   color: #A5C9FF; }
 
 .bio1-image {
-  width: 100px;
-  height: 140px;
+  width: 190px;
+  height: 240px;
   grid-area: bioimage1;
   margin: auto;
   border-radius: 7%; }
 
 .bio1 {
-  grid-area: bio1; }
+  grid-area: bio1;
+  padding: 1%; }
 
 .bio2-image {
   grid-area: bioimage2;
   margin: auto;
   border: 0.1rem solid #A5C9FF;
-  border-radius: 7%; }
+  border-radius: 7%;
+  width: 190px;
+  height: 240px; }
 
 .bio2 {
-  grid-area: bio2; }
+  grid-area: bio2;
+  padding: 1%; }
 
 .gap-about {
   text-align: center;
   grid-area: gapabout;
-  padding: 1rem; }
+  padding: 1rem;
+  padding-bottom: 2%; }
 
 .job-1 {
   grid-area: job1; }
